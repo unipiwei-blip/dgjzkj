@@ -598,3 +598,15 @@ table.tbl th,table.tbl td{padding:14px 14px}
 @media(max-width:900px){.sitemap-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.sitemap-list{grid-template-columns:1fr}}
 
+/* 网站地图分组：卡片居中排布 */
+.sitemap-group{display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+.sitemap-group a{display:block;width:300px;max-width:100%;padding:20px;border-radius:16px;background:rgba(255,255,255,.82);border:1px solid rgba(255,255,255,.92);box-shadow:var(--shadow);font-weight:900;color:var(--ink-2);text-align:center;transition:transform .25s,color .25s}
+.sitemap-group a:hover{color:var(--blue);transform:translateY(-4px)}
+.sitemap-group span{display:block;margin-top:7px;font-size:12.5px;font-weight:600;color:var(--muted);line-height:1.7}
+@media(max-width:640px){.sitemap-group a{width:100%}}
+
+/* 业务关键词胶囊内链 */
+.keyword-links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.keyword-links a{display:inline-flex;align-items:center;justify-content:center;padding:9px 17px;border-radius:999px;background:rgba(255,255,255,.85);border:1px solid var(--line);box-shadow:0 4px 12px rgba(20,80,180,.05);font-size:13px;font-weight:700;color:var(--ink-2);transition:transform .25s,color .25s,border-color .25s}
+.keyword-links a:hover{color:var(--blue);border-color:var(--blue);transform:translateY(-2px)}
+
