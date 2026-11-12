@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /_work/
+Disallow: /.workbuddy/
 
 Sitemap: https://www.dgjzkj.com/sitemap.xml
