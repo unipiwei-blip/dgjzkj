@@ -610,3 +610,6 @@ table.tbl th,table.tbl td{padding:14px 14px}
 .keyword-links a{display:inline-flex;align-items:center;justify-content:center;padding:9px 17px;border-radius:999px;background:rgba(255,255,255,.85);border:1px solid var(--line);box-shadow:0 4px 12px rgba(20,80,180,.05);font-size:13px;font-weight:700;color:var(--ink-2);transition:transform .25s,color .25s,border-color .25s}
 .keyword-links a:hover{color:var(--blue);border-color:var(--blue);transform:translateY(-2px)}
 
+
+/* WeChat share fallback thumbnail */
+.wx-share-thumb{position:absolute;top:0;left:-9999px;width:300px;height:300px;pointer-events:none;z-index:-1}
